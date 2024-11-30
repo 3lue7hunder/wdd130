@@ -129,7 +129,7 @@ section h2 {
    
 }
 
-/* history */
+/* History */
 
 .history {
     text-align: center;
@@ -174,7 +174,6 @@ section h2 {
 
 }
 
-
 /* Footer */
 
 footer {
@@ -187,12 +186,13 @@ footer {
 footer p {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
    
 }
 
 footer .sociallinks a {
     margin: 0 0.5em;
+    
 }
 
 footer .sociallinks img:hover {
@@ -200,6 +200,7 @@ footer .sociallinks img:hover {
 }
 
 /* Remove text-decoration from social media image links */
+
 footer .sociallinks a {
     text-decoration: none;
 }
