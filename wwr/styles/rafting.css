@@ -8,6 +8,7 @@
 }
 
 /* Global Styles */
+
 body {
     font-family: 'Noticia Text', serif;
     margin: 0;
@@ -16,17 +17,38 @@ body {
     color: var(--text-color);
 }
 
+/* Header */
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+	align-items: center;
     background-color: var(--primary-color);
-    padding: 1em;
     color: var(--background-color);
 }
 
-header .logo {
-    height: 50px;
+header img {
+    height: 100%;
+}
+
+.header_h1 {
+	font-size: 2rem;
+	font-family: 'Bree Serif', serif;
+    padding-left: 45%;
+}
+
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
 }
 
 header nav a {
@@ -42,20 +64,23 @@ header nav a:hover {
 }
 
 /* Hero Section */
+
 .hero {
     position: relative;
     text-align: center;
     color: var(--text-color);
 }
 
-.hero-img {
+.hero img {
+    
     width: 100%;
     display: block;
+   
 }
 
 .hero h1 {
     position: absolute;
-    top: 1%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Bree Serif', serif;
@@ -64,33 +89,35 @@ header nav a:hover {
     padding: 0.2em 2.9em;
     color: var(--background-color);
     border-radius: 8px;
+    width: 60%;
 }
 
 .hero article {
     position: absolute;
-    bottom: 88%;
+    bottom: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.4);
     padding: 1em;
     border-radius: 8px;
-    width: 40%;
+    width: 85%;
     text-align: left;
     
 }
 
 .hero article img {
     float: right;
-    width: 150px;
+    width: 200px;
     margin-left: 1em;
 }
 
 /* Sections */
+
 section {
     padding: 2em;
     margin: 1em auto;
-    max-width: 800px;
-    text-align: left;
+    max-width: 80%;
+    text-align: center;
 }
 
 section h2 {
@@ -98,17 +125,58 @@ section h2 {
     font-size: 2rem;
     color: var(--primary-color);
     margin-bottom: 1em;
+    align-content: flex;
+   
 }
 
-/* Adventure Images */
-section img {
-    width: 100%;
-    margin: 0.5%;
+/* history */
+
+.history {
+    text-align: center;
+    padding: 2em;
+    background-color: var(--background-color);
+}
+
+.history-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+.history-content img {
+    width: 150px;
+}
+
+/* Adventure */
+
+.adventure {
+    text-align: center;
+    padding: 2em;
+}
+
+.adventure-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    align-items: center; 
+    flex-wrap: nowrap; 
+    margin: 0 auto; 
+}
+
+.adventure-content figure {
+    text-align: center;
+}
+
+.adventure-content img {
+    width: 150px;
     border-radius: 8px;
+
 }
 
 
 /* Footer */
+
 footer {
     text-align: center;
     background-color: var(--secondary-color);
@@ -117,7 +185,10 @@ footer {
 }
 
 footer p {
-    margin: 0.5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 footer .sociallinks a {
