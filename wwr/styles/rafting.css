@@ -123,7 +123,7 @@ section {
 section h2 {
     font-family: 'Bree Serif', serif;
     font-size: 2rem;
-    color: var(--text-color);
+    color: var(--accent1-color);
     margin-bottom: 1em;
     align-content: center;
    
