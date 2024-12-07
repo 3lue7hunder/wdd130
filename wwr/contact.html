@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting Contact Page</title>
+    <meta name="description" content="Contact Information">
+    <meta name="author" content="Ty Rusnell">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noticia+Text&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/image1.jpg" alt="logo">
+        <h1 class="header_h1">White Water Rafting</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-us">        
+            <div class="column1">
+                <div class="contactinfo">
+                <h1>Contact Information</h1>
+                <p>Address: 123 Address City, ST 12345</p>
+                <p>Phone: 123-456-7890</p>
+                <p>Email: <a href="mailto">test@email.com</a></p>
+                </div>
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12472.496431508807!2d-109.57633029225046!3d38.60000618359448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1733526767244!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="employee-profiles">
+                    <figure>
+                        <img src="images/employee 1.jpg" alt="Employe Profile 1">
+                        <figcaption>Employe 1 Title</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/employee 2.jpg" alt="Employe Profile 2">
+                        <figcaption>Employe 2 Title</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/employee 3.jpg" alt="Employe Profile 3">
+                        <figcaption>Employe 3 Title</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="column2">
+                <form class="userinfo">
+                    <fieldset>
+                        <legend>Your Contact Information</legend>
+                        <div class="fullname contact">
+                            <label>Full Name: <input type="text" name="fullname"></label>
+                        </div>
+                        <div class="email contact">
+                            <label>Email: <input type="email" name="useremail"></label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="messageinfo">
+                        <legend>Message Information</legend>
+                        <div class="message-subject message">
+                            <input type="radio" id="general inquiry" name="general inquiry" value="general inquiry"/>
+                            <label for="general inquiry">General Inquiry</label>                       
+                            <input type="radio" id="reservation question" name="reservation question" value="reservation question"/>
+                            <label for="reservation question">Reservation Question</label>         
+                            <input type="radio" id="website suggestion" name="website suggestion" value="website suggestion"/>
+                            <label for="website suggestion">Website Suggestion</label>
+                        </div>
+                            <label for="">Leave us a message</label>
+                            <textarea name="feedback" id="feedback" rows="4" placeholder="Write here"></textarea>
+                        <div class="subscription-message">
+                            <label for="subscription">Please subscribe me to the monthly newsletter</label>
+                        </div>
+                        <input type="checkbox" id="subscription" name="subscription">
+                        <div class="submit button">
+                        <button type="submit">Send Message</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+    </main>
+    <footer>
+        <p>©, 2024, White Water Rafting, Ty Rusnell </p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook_logo.png" alt="Facebook" width="25" height="25">
+            </a>
+            <a href="https://x.com">
+                <img src="images/x_logo.png" alt="X" width="25" height="25">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram_logo.png" alt="Instagram" width="25" height="25">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>

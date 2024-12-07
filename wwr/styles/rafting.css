@@ -20,7 +20,7 @@ body {
 /* Header */
 
 header {
-    margin: 1rem auto;
+    margin:  auto;
     display: grid;
     grid-template-columns: auto 1fr auto;
 	align-items: center;
@@ -35,11 +35,12 @@ header img {
 .header_h1 {
 	font-size: 2rem;
 	font-family: 'Bree Serif', serif;
-    padding-left: 45%;
+    padding-left: 50%;
 }
 
 nav {
 	text-align: right;
+    padding-right: 3rem;
 }
 
 .navigation {
@@ -203,4 +204,134 @@ footer .sociallinks img:hover {
 
 footer .sociallinks a {
     text-decoration: none;
+}
+
+/* Contact US */
+
+.contact-us {
+    display: flex;
+}
+
+.column1 {
+    flex: 1;
+    padding: 2rem;
+    
+}
+
+.column2 {
+    flex: 1;
+    padding: 2rem;
+}
+
+@media (max-width: 1400px) {
+    .contact-us {
+        flex-direction: column;
+    }
+}
+
+form {
+    width: 700px;
+    height: 900px;
+    margin: 1 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: gird;
+    
+}
+
+.userinfo {
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: #000000;
+    font-size: 1.3em;
+}
+
+label, input, button, textarea {
+    font-family: 'Bree Serif', serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #023047;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.5rem;
+    width: 200px;
+}
+
+.fullname, .email {
+    display: grid;
+    align-items: center;
+}
+
+.message {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.contact {
+    grid-template-columns: 1fr 2fr;
+}
+
+.employee-profiles img {
+    width: 150px;
+    border-radius: 8px;
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    align-items: center; 
+    flex-wrap: nowrap; 
+    margin: 0 auto; 
+}
+
+.google-map {
+    display: flex;
+    justify-content: center;
+}
+
+.contactinfo {
+    text-align: center;
+}
+
+.messageinfo {
+    height: 65%;
+}
+
+figcaption {
+    text-align: center;
 }
