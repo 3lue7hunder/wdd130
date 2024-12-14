@@ -33,9 +33,9 @@ header img {
 }
 
 .header_h1 {
-	font-size: 2rem;
+	font-size: 3rem;
 	font-family: 'Bree Serif', serif;
-    padding-left: 50%;
+    padding-left: 40%;
 }
 
 nav {
@@ -57,7 +57,7 @@ header nav a {
     text-decoration: none;
     margin: 0 1em;
     font-family: 'Bree Serif', serif;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 header nav a:hover {
@@ -114,7 +114,7 @@ header nav a:hover {
 
 /* Sections */
 
-section {
+.hero, .history, .adventure {
     padding: 2em;
     margin: 1em auto;
     max-width: 80%;
@@ -229,7 +229,7 @@ footer .sociallinks a {
     }
 }
 
-form {
+.userinfo {
     width: 700px;
     height: 900px;
     margin: 1rem auto;
@@ -244,7 +244,7 @@ form {
     grid-template-columns: 2fr;
 }
 
-fieldset {
+.contact-name-email, .messageinfo {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
@@ -278,7 +278,7 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 
-button {
+.submit-button {
     margin: 1rem;
     background-color: #023047;
     color: #fff;
@@ -334,3 +334,229 @@ button {
 figcaption {
     text-align: center;
 }
+
+
+/* Home Page */
+
+
+.hero1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    background-image: url("/wwr/images/rafting1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    padding-bottom: 39%; 
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+.book-now {
+    margin: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.5rem;
+    width: 150px;
+}
+
+.hero1 h1 {
+    font-size: 60px;
+    margin-bottom: 1%;
+  
+}
+
+.hero1 p {
+    margin-bottom: 0;
+}
+
+
+.newsletter h2 {
+    text-align: center;
+    color: black;
+}
+
+.newsletter-input {
+    display: grid;
+    justify-content: center;
+    background-color: #023047;
+    color: white;
+    width: 300px;
+    margin: 10px auto;
+    padding: 15px 70px;
+    border-radius: .5rem;
+}
+
+.signup-button {
+    background-color: white;
+    color: black;
+    margin: 1rem;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.5rem;
+    width: 175px;
+}
+
+.highlight-img {
+    padding: 10px;
+    height: 350px;
+    width: 600px;
+    
+}
+
+.highlighted {
+    background-color: rgb(255 183 3 / 0.8);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+.highlighted-content {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    color: black;
+    height: 250px;
+    width: 400px;
+    margin: auto;   
+    padding: 0 40px;
+}
+
+.highlight-button {
+    background-color: white;
+    color: black;
+    margin: 1rem auto;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    width: 100px;
+    padding: 10px;
+}
+
+.highlighted-content h2 {
+    margin-bottom: 0;
+    color: black;
+}
+
+.highlighted-content p {
+    font-size: 1.1rem;
+}
+
+
+/* Trips Page */
+
+
+/* Call-to-Action Section */
+.call-to-action {
+    background-color: var(--accent2-color);
+    color: black;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+.call-to-action .cta-button {
+    background-color: var(--accent1-color);
+    color: var(--background-color);
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+
+.call-to-action .cta-button:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+/* Trip Descriptions Section */
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    padding: 2em;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.trip-descriptions article {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trip-descriptions img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trip-descriptions h2 {
+    margin: 1em 0;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.trip-descriptions p {
+    padding: 0 1em 1em;
+}
+
+/* Trips Table Section */
+.trip-table {
+    margin: 2em auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid var(--accent1-color);
+    padding: 1em;
+    font-size: 1rem;
+}
+
+.trip-table th {
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.trip-table td {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.trip-table tr:nth-child(even) td {
+    background-color: var(--primary-color);
+}
+
+.trip-table h2 {
+    margin-bottom: 1em;
+    font-family: 'Bree Serif', serif;
+}
+
+
+
+
+
