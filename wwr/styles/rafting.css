@@ -342,7 +342,6 @@ figcaption {
 .hero1 {
     display: flex;
     justify-content: center;
-    background-color: white;
     background-image: url("/wwr/images/rafting1.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -555,8 +554,3 @@ figcaption {
     margin-bottom: 1em;
     font-family: 'Bree Serif', serif;
 }
-
-
-
-
-
