@@ -206,6 +206,10 @@ footer .sociallinks a {
     text-decoration: none;
 }
 
+footer a {
+    color: black;
+}
+
 /* Contact US */
 
 .contact-us {
@@ -482,7 +486,7 @@ figcaption {
 
 .call-to-action .cta-button:hover {
     background-color: var(--secondary-color);
-    color: var(--text-color);
+    color: black;
 }
 
 /* Trip Descriptions Section */
@@ -498,7 +502,7 @@ figcaption {
 
 .trip-descriptions article {
     background-color: var(--primary-color);
-    color: var(--accent1-color);
+    color: black;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -535,7 +539,7 @@ figcaption {
 
 .trip-table th,
 .trip-table td {
-    border: 1px solid var(--accent1-color);
+    border: 1px solid black;
     padding: 1em;
     font-size: 1rem;
 }
