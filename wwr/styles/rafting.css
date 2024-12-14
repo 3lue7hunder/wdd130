@@ -344,8 +344,7 @@ figcaption {
     justify-content: center;
     background-image: url("/wwr/images/rafting1.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    
+    background-size: cover;
     padding-bottom: 39%; 
 }
 
