@@ -342,7 +342,7 @@ figcaption {
 .hero1 {
     display: flex;
     justify-content: center;
-    background-image: url("/wwr/images/rafting1.jpg");
+    background-image: url(/wwr/images/wwr2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 39%; 
